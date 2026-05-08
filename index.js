@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer')
 
 const bot = mineflayer.createBot({
   host: 'donutsmp.net',
-  username: 'YOUR_EMAIL@HERE.COM', 
+  username: 'klr11allop@gmail.com', 
   auth: 'microsoft',
   version: '1.21.1'
 })
