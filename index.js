@@ -18,7 +18,7 @@ bot.on('spawn', () => {
 // This part listens for chat messages
 bot.on('chat', (username, message) => {
   // Only respond if YOU are the one talking
-  if (username !== rwlit) return
+  if (username !== MY_USERNAME) return
 
   // If you type "tp" in game, the bot sends a TPA request to you
   if (message === 'tp') {
