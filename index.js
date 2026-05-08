@@ -8,7 +8,7 @@ const bot = mineflayer.createBot({
 })
 
 // --- CHANGE THIS ---
-const MY_USERNAME = 'Your_Minecraft_Name' // Put your exact In-Game Name here!
+const MY_USERNAME = 'rwlit' // Put your exact In-Game Name here!
 // -------------------
 
 bot.on('spawn', () => {
