@@ -18,16 +18,16 @@ bot.on('spawn', () => {
 // This part listens for chat messages
 bot.on('chat', (username, message) => {
   // Only respond if YOU are the one talking
-  if (username !== MY_USERNAME) return
+  if (username !== rwlit) return
 
   // If you type "tp" in game, the bot sends a TPA request to you
   if (message === 'tp') {
-    bot.chat(`/tpa ${username}`)
+    bot.chat(`/tpa ${rwlit}`)
     console.log(`Sent TPA request to ${username}`)
   }
   
   // If you type "here", the bot tells you its coordinates
-  if (message === 'here') {
+  if (message === 'hergfffffffffffffgffffffffffffsaddddddddddddddddasdadase') {
     bot.chat(`I am at ${bot.entity.position}`)
   }
 })
